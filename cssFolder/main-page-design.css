@@ -1,0 +1,169 @@
+body,html {
+  margin: 0px;
+  padding: 0px;
+  background-color:rgb(16, 34, 45);
+}
+
+
+p,details,pre{
+  font-family:Comfortaa,sans-serif;
+  color:white;
+  text-align:center;
+}
+
+
+/*Start of the Responsive page design flow*/
+/*Start under 600px for phones / some element is self adjusting for clean code*/
+.img20 {
+  width: 99.3vw;
+  border-end-end-radius: 5vw;
+  border-end-start-radius: 5vw;
+  box-shadow: 0px 1vw 3vw 0vw rgba(0, 0, 0, 0.5);
+}
+
+
+.grid1{
+  display: grid;
+}
+
+
+.img1{ 
+  width: 80%;
+  margin: -10vw 10vw 0px 10vw;
+  border-radius: 3vw;
+  box-shadow: 0px 0vw 8vw 2vw rgba(0, 0, 0, 1);
+}
+
+
+.title{
+  font-weight: 700;
+  font-size: 8vw;
+  margin: 8vw 0px 8vw 0px;
+ }
+
+
+.aboutmy{
+  font-weight: 300;
+  font-size: 3vw;
+  line-height: 5vw;
+  margin: 0px 10vw 0px 10vw;
+  padding: 2vw 5vw 0 5vw;
+  box-shadow: 0px -2vw 3vw -2vw rgba(0, 0, 0, 0.8);
+  border-radius: 3vw;
+}
+
+.grid2{
+  margin: 0px 6vw 20vw 6vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  grid-gap: 5vw;
+  grid-row-gap: 6vw;
+
+}
+
+.gallery{
+  width: 100%;
+  border-radius: 1.5vw;
+  box-shadow: 0px -1vw 4vw 1vw rgba(0, 0, 0, 0.5);
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-gap: 5vw;
+  grid-row-gap: 6vw;
+}
+
+.photoSize{
+  margin-top: 22vw;
+  font-size: 5vw;
+}
+
+.summary1{
+  font-size: 4vw;
+  background-color: rgb(134, 109, 24);
+  border-radius: 2vw;
+  line-height: 10vw;
+}
+
+.details1{
+  margin: 8vw 10vw 0vw 10vw;
+  font-weight: 700;
+  font-size: 2.4vw;
+  line-height: 5vw;
+  border-radius: 2vw;
+  background-color: rgb(10, 20, 26);
+  box-shadow: 0px 0vw 5vw 1vw rgba(0, 0, 0, 0.5);
+}
+
+.ending{
+  text-align:left;
+  margin: 10vw 0vw 2vw 10vw;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+
+/*Responsive Design*/
+/*Start after 600px*/
+
+@media (min-width: 600px){
+
+  .grid2{
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  }
+
+}
+
+
+
+@media (min-width: 1100px){
+  
+  .img1{
+    width: 40%;
+    margin: -10vw 0px 0px 30vw;
+  }
+
+  .title{
+    font-weight: 700;
+    font-size: 3vw;
+    margin: 3vw 0px 10vw 0px;
+   }
+
+  .aboutmy{
+    font-size: 1vw;
+    line-height: 3vw;
+    margin: 0px 15vw 0px 15vw;
+  }
+
+    .grid2{
+    display: grid;
+    margin-bottom: 10vw;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+
+  .summary1{
+    font-size: 1.3vw;
+    line-height: 4vw;
+  }
+  
+  .details1{
+    margin: 5vw 30vw 0vw 30vw;
+    font-size: 1vw;
+    line-height: 1.7vw;
+  }
+
+  .photoSize{
+    margin-top: 8vw;
+    font-size: 2vw;
+  }
+}
+
+
+
+@media (min-width: 2000px){
+
+  .grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  }
+}
