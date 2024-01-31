@@ -42,7 +42,7 @@ p,button{
  }
 
  img{
-  margin: 5vw 0vw 0vw 20vw;
+  margin: 5vw 0vw 0vw 18vw;
   width: 60%;
   border-radius: 1.5vw;
   box-shadow: 0px 0vw 8vw 3vw rgba(0, 0, 0, 0.5);
@@ -50,7 +50,7 @@ p,button{
 
 
  
-@media (min-width: 800px){
+@media (min-width: 1100px){
 
    .button1{
     margin: 0vw 0vw 0vw 35vw;
