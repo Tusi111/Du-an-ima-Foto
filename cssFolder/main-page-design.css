@@ -1,282 +1,169 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Links And File Directions -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <link rel="stylesheet" href="cssFolder/main-page-design.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
-
-    <!-- Title -->
-    <title>
-      Dušan Šima Foto 
-    </title>
-  </head>
-  <body>
-    <div>
-      <!-- Head Image (main) -->
-      <div>
-        <img class="img20" src="photoFolder/20.jpeg"> 
-      </div>
-      <!-- Body part 1 -->
-      <div class="grid1">
-        <div>
-          <img class="img1"  src="photoFolder/1.jpeg">
-        </div>
-        <div>
-          <p class="title">
-            Dušan Šima Foto
-          </p>
-        </div>
-        <div>
-          <p class="aboutmy">
-            Volám sa Dušan. Fotografovaniu sa venujem od svojich 20 rokov. Veľmi rád fotím prírodné scenérie, s veľkou obľubou tiež rád fotím, rodiny a deti. 
-            Mám dve dcéry, ktoré mi veľmi pomáhajú v tom aby som sa stal kreatívnejším a šikovnejším fotografom. V roku 2023 som sa začal fotografovaniu venovať vážnejšie a konečne sa mi splnil môj sen.
-            S manželkou tvoríme silný tím a radi pomôžeme zachytiť tie najkrajšie a najzaujímavejšie momenty. 
-           
-           "Fotografia je príbeh, ktorý sa nedá opísať slovami." - Destin Sparks -
-          </p>
-        </div>
-      </div>
-      <!-- Body part 2 -->
-      <div>
-        <p class="title">
-          GALLERY
-        </p>
-      </div>
-      <div class="grid2">
-        <div>
-          <img class="gallery"  src="photoFolder/3.jpg">
-          <img class="gallery"  src="photoFolder/4.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/5.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/6.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/7.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/15.jpg">
-          <img class="gallery"  src="photoFolder/8.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/13.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/17.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/18.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/19.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/20.jpeg">
-          <img class="gallery"  src="photoFolder/21.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/9.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/10.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/12.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/11.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/14.jpg">
-        </div>
-        <div>
-          <img class="gallery"  src="photoFolder/16.jpg">
-        </div>
-      </div>
-      <div>
-        <p class="title">
-          Fotografovanie
-        </p>
-      </div>
-      <div>
-        <details class="details1">
-          <summary class="summary1">Materská Škola</summary>
-            <pre>
+body,html {
+  margin: 0px;
+  padding: 0px;
+  background-color:rgb(16, 34, 45);
+}
 
 
-Malý balík- 4euro/dieťa
-(súrodenec za polovičnú cenu)
-1 ks - spoločná triedna fotografia 13x18 cm
-2ks fotografia 10 x 15 cm
+p,details,pre{
+  font-family:Comfortaa,sans-serif;
+  color:white;
+  text-align:center;
+}
 
 
-Stredný balík- 8euro/dieťa
-(súrodenec za polovičnú cenu)
-1 ks - spoločná triedna fotografia 13x18 cm
-4ks fotografia 10 x 15 cm
-4ks - fotografia 7,5 x 5 cm
-1ks foto darček
+/*Start of the Responsive page design flow*/
+/*Start under 600px for phones / some element is self adjusting for clean code*/
+.img20 {
+  width: 99.3vw;
+  border-end-end-radius: 5vw;
+  border-end-start-radius: 5vw;
+  box-shadow: 0px 1vw 3vw 0vw rgba(0, 0, 0, 0.5);
+}
 
 
-Veľký balík- 14euro/dieťa
-(súrodenec za polovičnú cenu)
-1 ks - spoločná triedna fotografia 13x18 cm
-1 ks - fotografia 15 x 21 cm
-8ks fotografia 10 x 15 cm
-4ks - fotografia 7,5 x 5 cm
-1ks foto darček
+.grid1{
+  display: grid;
+}
 
 
-Samostatne 1 ks - spoločná triedna fotografia 
-13x18 cm – 1,50euro
-  Foto 10x15cm - 1ks/1,50euro
-Foto 7,5x5cm – 1ks/0,60euro
-Foto 15x21cm – 1ks/2,50
+.img1{ 
+  width: 80%;
+  margin: -10vw 10vw 0px 10vw;
+  border-radius: 3vw;
+  box-shadow: 0px 0vw 8vw 2vw rgba(0, 0, 0, 1);
+}
 
+
+.title{
+  font-weight: 700;
+  font-size: 8vw;
+  margin: 8vw 0px 8vw 0px;
+ }
+
+
+.aboutmy{
+  font-weight: 300;
+  font-size: 3vw;
+  line-height: 5vw;
+  margin: 0px 10vw 0px 10vw;
+  padding: 2vw 5vw 0 5vw;
+  box-shadow: 0px -2vw 3vw -2vw rgba(0, 0, 0, 0.8);
+  border-radius: 3vw;
+}
+
+.grid2{
+  margin: 0px 6vw 20vw 6vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  grid-gap: 5vw;
+  grid-row-gap: 6vw;
+
+}
+
+.gallery{
+  width: 100%;
+  border-radius: 1.5vw;
+  box-shadow: 0px -1vw 4vw 1vw rgba(0, 0, 0, 0.5);
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-gap: 5vw;
+  grid-row-gap: 6vw;
+}
+
+.photoSize{
+  margin-top: 22vw;
+  font-size: 5vw;
+}
+
+.summary1{
+  font-size: 4vw;
+  background-color: rgb(134, 109, 24);
+  border-radius: 2vw;
+  line-height: 10vw;
+}
+
+.details1{
+  margin: 8vw 10vw 0vw 10vw;
+  font-weight: 700;
+  font-size: 2.4vw;
+  line-height: 5vw;
+  border-radius: 2vw;
+  background-color: rgb(10, 20, 26);
+  box-shadow: 0px 0vw 5vw 1vw rgba(0, 0, 0, 0.5);
+}
+
+.ending{
+  text-align:left;
+  margin: 10vw 0vw 2vw 10vw;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+
+/*Responsive Design*/
+/*Start after 600px*/
+
+@media (min-width: 600px){
+
+  .grid2{
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  }
+
+}
+
+
+
+@media (min-width: 1100px){
   
+  .img1{
+    width: 40%;
+    margin: -10vw 0px 0px 30vw;
+  }
 
-Podla želania spravím aj Tablo
-90x60cm na penovej doske
-1ks/20Euro
+  .title{
+    font-weight: 700;
+    font-size: 3vw;
+    margin: 3vw 0px 10vw 0px;
+   }
 
-Fotenie pri rozlúčke 4euro/dieťa
-(Digitálné fotky)
-              
+  .aboutmy{
+    font-size: 1vw;
+    line-height: 3vw;
+    margin: 0px 15vw 0px 15vw;
+  }
 
- 
+    .grid2{
+    display: grid;
+    margin-bottom: 10vw;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
 
-
-  Tel:     0948 260 015  /  0948 115 728
-  Email:     dusanfotosima@gmail.com      
-  Fb:     Dusan Foto Sima
-
-            </pre>
-            <div class="grid3">
-              <div>
-                <img class="gallery" src="photoFolder/preSchool/7,5x5cm.jpg"> 
-              </div>
-              <div>
-                <p class="photoSize">7,5x5cm</p>
-              </div>
-              <div>
-                <img class="gallery" src="photoFolder/preSchool/10x15cm.jpg"> 
-              </div>
-              <div>
-                <p class="photoSize">10x15cm</p->
-              </div>
-              <div>
-                <img class="gallery" src="photoFolder/preSchool/15x21cm.jpg"> 
-              </div>
-              <div>
-                <p class="photoSize">15x21cm</p>
-              </div>
-            </div>
-        </details> 
-        <details class="details1">
-          <summary class="summary1">Základné a Stredné Školy
-          </summary>
-            <pre>
-
-              
-1 ks - spoločná triedna fotografia 18 x 13 cm 
-+ 2ks fotografia 10 x 15 cm 4euro/dieťa
-(Samostatne 1 ks - spoločná triedna fotografia 
-13x18 cm – 1,50euro
-Foto 10x15cm - 1ks/1,20euro)
-
-fotky na oznamko- 50 ks foto 2x2,5 cm- 3euro/dieťa
-
-Fotografovanie stužkovej + fotobúdka - cena podla dohody
-
-Školské udalosti a iné slávnosti – cena podla dohody
-
-Podla želania spravím aj Tablo
-90x60 na penovej doske- 1ks /60Euro
-              
+  .summary1{
+    font-size: 1.3vw;
+    line-height: 4vw;
+  }
   
-  
-  
-  Tel:     0948 260 015  /  0948 115 728
-  Email:     dusanfotosima@gmail.com      
-  Fb:     Dusan Foto Sima
-            </pre>
-        </details>
-        <details class="details1">
-          <summary class="summary1">Rodinné, Detské, Tehotenské a domácého miláčika </summary>
-            <pre>
+  .details1{
+    margin: 5vw 30vw 0vw 30vw;
+    font-size: 1vw;
+    line-height: 1.7vw;
+  }
 
-              
-10 ks digitálne upravené fotky
-20 ks digitálne upravené fotky
-30 ks digitálne upravené fotky
-Od 50euro
+  .photoSize{
+    margin-top: 8vw;
+    font-size: 2vw;
+  }
+}
 
-Reklamné fotenie
-20 ks digitálne upravené fotky 
-                         Od 80Euro                        
 
-Snúbenecké alebo Svadobné fotenie
-Malý balík, Stredný balík alebo Velký balík
-Od 90euro
-              
-              
-  
-  
-  
-Tel:     0948 260 015  /  0948 115 728
-Email:     dusanfotosima@gmail.com      
-Fb:     Dusan Foto Sima
-            </pre>
-        </details>
-        <details class="details1">
-          <summary class="summary1">Reklamné</summary>
-            <pre>
 
-20 ks digitálne upravené fotky 
-                     Od 80Euro                        
-              
-              
-  
-  
-Tel:     0948 260 015  /  0948 115 728
-Email:     dusanfotosima@gmail.com      
-Fb:     Dusan Foto Sima
-            </pre>
-        </details>
-        <details class="details1">
-          <summary class="summary1">Snúbenecké alebo Svadobné</summary>
-            <pre>
+@media (min-width: 2000px){
 
-              
-Malý balík 
-Stredný balík 
-Velký balík
-
-Od 90euro
-              
-              
-              
-  
-  Tel:     0948 260 015  /  0948 115 728
-  Email:     dusanfotosima@gmail.com      
-  Fb:     Dusan Foto Sima
-            </pre>
-        </details>
-      </div>
-      <div>
-        <pre class="ending">
-          Dušan Šima Foto                                  Web Developer    
-
-          Ceny sú s DPH                                       Instagram:    jozef_f__
-          ICO:    56029918                                      email:    jfeledy03@gmail.com
-        </pre> 
-      </div>
-    </div>
-  </body>
-</html>
+  .grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  }
+}
