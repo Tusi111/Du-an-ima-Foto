@@ -64350,8 +64350,8 @@ A.BE.prototype={
 Z(a){var s=null,r=A.ac8(s,"Comfortaa",B.M9,s)
 return new A.rW(A.abC(B.fC,new A.lf(new A.TI(),s)),"Du\u0161an \u0160ima Foto",r,s)}}
 A.TI.prototype={
-$2(a,b){var s=null,r=b.b,q=r>1300,p=q?1920:r,o=A.aap(B.j8,B.wr,q?1000:r),n=A.aa4(A.iq("  Magyar  ",A.e0(s,s,B.l,s,s,s,s,s,s,s,s,q?80:r/15,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),new A.TG(a)),m=A.E0(s,300,q?r/20:r/40),l=t.F
-return A.aaO(A.b([A.mJ(A.j6(s,A.qi(A.b([o,new A.dj(B.zL,A.abz(A.b([n,m,A.aa4(A.iq("Slovensky",A.e0(s,s,B.l,s,s,s,s,s,s,s,s,q?80:r/15,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),new A.TH(a))],l),B.pD,B.bD),s)],l),B.bn,B.b9,B.bD),B.fC,B.j6,s,s,s,s,p),s,s)],l),!0)},
+$2(a,b){var s=null,r=b.b,q=r>1300,p=q?1920:r,o=A.aap(B.j8,B.wr,q?1000:r),n=A.aa4(A.iq("  Magyar  ",A.e0(s,s,B.l,s,s,s,s,s,s,s,s,q?80:r/20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),new A.TG(a)),m=A.E0(s,300,q?r/20:r/40),l=t.F
+return A.aaO(A.b([A.mJ(A.j6(s,A.qi(A.b([o,new A.dj(B.zL,A.abz(A.b([n,m,A.aa4(A.iq("Slovensky",A.e0(s,s,B.l,s,s,s,s,s,s,s,s,q?80:r/20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),new A.TH(a))],l),B.pD,B.bD),s)],l),B.bn,B.b9,B.bD),B.fC,B.j6,s,s,s,s,p),s,s)],l),!0)},
 $S:387}
 A.TG.prototype={
 $0(){var s=A.a6N(new A.TF(),null,t.z)
